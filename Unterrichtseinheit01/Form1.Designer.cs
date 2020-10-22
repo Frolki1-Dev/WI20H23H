@@ -43,6 +43,7 @@
             this.CmdMyButton.TabIndex = 0;
             this.CmdMyButton.Text = "My badass button";
             this.CmdMyButton.UseVisualStyleBackColor = false;
+            this.CmdMyButton.Click += new System.EventHandler(this.CmdMyButton_Click);
             // 
             // LblOutput
             // 

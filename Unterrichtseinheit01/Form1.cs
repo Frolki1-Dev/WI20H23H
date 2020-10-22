@@ -16,5 +16,18 @@ namespace Unterrichtseinheit01
         {
             InitializeComponent();
         }
+
+        /**
+         * What you should do when the button is clicked.
+         * Let's do some party!
+         */
+        private void CmdMyButton_Click(object sender, EventArgs e)
+        {
+            // Change the text
+            this.LblOutput.Text = "You clicked the button! Greate job.";
+
+            // And change the color
+            this.LblOutput.ForeColor = Color.Red;
+        }
     }
 }
