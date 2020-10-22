@@ -44,5 +44,12 @@ namespace Unterrichtseinheit01
         {
             LblDot.Text += ".";
         }
+        /**
+         * Change the color
+         */
+        private void CmdChangeColor_Click(object sender, EventArgs e)
+        {
+            CmdChangeColor.BackColor = Color.Yellow;
+        }
     }
 }

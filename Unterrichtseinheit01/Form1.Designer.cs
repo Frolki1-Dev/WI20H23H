@@ -33,6 +33,7 @@
             this.CmdWorld = new System.Windows.Forms.Button();
             this.CmdAddDot = new System.Windows.Forms.Button();
             this.LblDot = new System.Windows.Forms.Label();
+            this.CmdChangeColor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CmdMyButton
@@ -88,11 +89,23 @@
             this.LblDot.TabIndex = 4;
             this.LblDot.Text = ".";
             // 
+            // CmdChangeColor
+            // 
+            this.CmdChangeColor.BackColor = System.Drawing.Color.Gray;
+            this.CmdChangeColor.Location = new System.Drawing.Point(603, 12);
+            this.CmdChangeColor.Name = "CmdChangeColor";
+            this.CmdChangeColor.Size = new System.Drawing.Size(167, 80);
+            this.CmdChangeColor.TabIndex = 5;
+            this.CmdChangeColor.Text = "Rainbow time";
+            this.CmdChangeColor.UseVisualStyleBackColor = false;
+            this.CmdChangeColor.Click += new System.EventHandler(this.CmdChangeColor_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
+            this.Controls.Add(this.CmdChangeColor);
             this.Controls.Add(this.LblDot);
             this.Controls.Add(this.CmdAddDot);
             this.Controls.Add(this.CmdWorld);
@@ -112,6 +125,7 @@
         private System.Windows.Forms.Button CmdWorld;
         private System.Windows.Forms.Button CmdAddDot;
         private System.Windows.Forms.Label LblDot;
+        private System.Windows.Forms.Button CmdChangeColor;
     }
 }
 
