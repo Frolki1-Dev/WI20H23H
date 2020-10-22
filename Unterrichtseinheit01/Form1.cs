@@ -24,10 +24,16 @@ namespace Unterrichtseinheit01
         private void CmdMyButton_Click(object sender, EventArgs e)
         {
             // Change the text
-            this.LblOutput.Text = "You clicked the button! Greate job.";
+            this.LblOutput.Text = "Hello";
 
             // And change the color
             this.LblOutput.ForeColor = Color.Red;
+        }
+
+        private void CmdWorld_Click(object sender, EventArgs e)
+        {
+            // Add string to the output
+            LblOutput.Text += " World";
         }
     }
 }
