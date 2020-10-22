@@ -51,5 +51,10 @@ namespace Unterrichtseinheit01
         {
             CmdChangeColor.BackColor = Color.Yellow;
         }
+
+        private void CmdChangeWidth_Click(object sender, EventArgs e)
+        {
+            CmdChangeWidth.Width += 200;
+        }
     }
 }

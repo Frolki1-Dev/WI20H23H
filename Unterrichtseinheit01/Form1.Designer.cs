@@ -34,6 +34,7 @@
             this.CmdAddDot = new System.Windows.Forms.Button();
             this.LblDot = new System.Windows.Forms.Label();
             this.CmdChangeColor = new System.Windows.Forms.Button();
+            this.CmdChangeWidth = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CmdMyButton
@@ -100,11 +101,22 @@
             this.CmdChangeColor.UseVisualStyleBackColor = false;
             this.CmdChangeColor.Click += new System.EventHandler(this.CmdChangeColor_Click);
             // 
+            // CmdChangeWidth
+            // 
+            this.CmdChangeWidth.Location = new System.Drawing.Point(12, 13);
+            this.CmdChangeWidth.Name = "CmdChangeWidth";
+            this.CmdChangeWidth.Size = new System.Drawing.Size(187, 65);
+            this.CmdChangeWidth.TabIndex = 6;
+            this.CmdChangeWidth.Text = "Let\'s get bigger!";
+            this.CmdChangeWidth.UseVisualStyleBackColor = true;
+            this.CmdChangeWidth.Click += new System.EventHandler(this.CmdChangeWidth_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
+            this.Controls.Add(this.CmdChangeWidth);
             this.Controls.Add(this.CmdChangeColor);
             this.Controls.Add(this.LblDot);
             this.Controls.Add(this.CmdAddDot);
@@ -126,6 +138,7 @@
         private System.Windows.Forms.Button CmdAddDot;
         private System.Windows.Forms.Label LblDot;
         private System.Windows.Forms.Button CmdChangeColor;
+        private System.Windows.Forms.Button CmdChangeWidth;
     }
 }
 
