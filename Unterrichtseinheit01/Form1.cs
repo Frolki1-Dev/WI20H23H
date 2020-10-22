@@ -34,6 +34,10 @@ namespace Unterrichtseinheit01
         {
             // Add string to the output
             LblOutput.Text += " World";
+
+            // It's same how:
+            // LblOutput.Text = LblOutput.Text + " World";
+            // But in the programming you use +=. It's much faster and is less code.
         }
     }
 }
