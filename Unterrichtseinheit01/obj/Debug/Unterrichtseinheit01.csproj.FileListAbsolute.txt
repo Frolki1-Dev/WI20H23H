@@ -1,0 +1,10 @@
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\bin\Debug\Unterrichtseinheit01.exe.config
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\bin\Debug\Unterrichtseinheit01.exe
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\bin\Debug\Unterrichtseinheit01.pdb
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\obj\Debug\Unterrichtseinheit01.csprojAssemblyReference.cache
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\obj\Debug\Unterrichtseinheit01.Form1.resources
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\obj\Debug\Unterrichtseinheit01.Properties.Resources.resources
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\obj\Debug\Unterrichtseinheit01.csproj.GenerateResource.cache
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\obj\Debug\Unterrichtseinheit01.csproj.CoreCompileInputs.cache
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\obj\Debug\Unterrichtseinheit01.exe
+C:\Users\frank\source\repos\WI20H23H\Unterrichtseinheit01\obj\Debug\Unterrichtseinheit01.pdb
