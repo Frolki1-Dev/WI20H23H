@@ -31,6 +31,8 @@
             this.CmdMyButton = new System.Windows.Forms.Button();
             this.LblOutput = new System.Windows.Forms.Label();
             this.CmdWorld = new System.Windows.Forms.Button();
+            this.CmdAddDot = new System.Windows.Forms.Button();
+            this.LblDot = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CmdMyButton
@@ -67,11 +69,32 @@
             this.CmdWorld.UseVisualStyleBackColor = true;
             this.CmdWorld.Click += new System.EventHandler(this.CmdWorld_Click);
             // 
+            // CmdAddDot
+            // 
+            this.CmdAddDot.Location = new System.Drawing.Point(12, 348);
+            this.CmdAddDot.Name = "CmdAddDot";
+            this.CmdAddDot.Size = new System.Drawing.Size(266, 37);
+            this.CmdAddDot.TabIndex = 3;
+            this.CmdAddDot.Text = "Add more dots";
+            this.CmdAddDot.UseVisualStyleBackColor = true;
+            this.CmdAddDot.Click += new System.EventHandler(this.CmdAddDot_Click);
+            // 
+            // LblDot
+            // 
+            this.LblDot.AutoSize = true;
+            this.LblDot.Location = new System.Drawing.Point(312, 367);
+            this.LblDot.Name = "LblDot";
+            this.LblDot.Size = new System.Drawing.Size(12, 17);
+            this.LblDot.TabIndex = 4;
+            this.LblDot.Text = ".";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
+            this.Controls.Add(this.LblDot);
+            this.Controls.Add(this.CmdAddDot);
             this.Controls.Add(this.CmdWorld);
             this.Controls.Add(this.LblOutput);
             this.Controls.Add(this.CmdMyButton);
@@ -87,6 +110,8 @@
         private System.Windows.Forms.Button CmdMyButton;
         private System.Windows.Forms.Label LblOutput;
         private System.Windows.Forms.Button CmdWorld;
+        private System.Windows.Forms.Button CmdAddDot;
+        private System.Windows.Forms.Label LblDot;
     }
 }
 

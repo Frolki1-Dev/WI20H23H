@@ -39,5 +39,10 @@ namespace Unterrichtseinheit01
             // LblOutput.Text = LblOutput.Text + " World";
             // But in the programming you use +=. It's much faster and is less code.
         }
+
+        private void CmdAddDot_Click(object sender, EventArgs e)
+        {
+            LblDot.Text += ".";
+        }
     }
 }
