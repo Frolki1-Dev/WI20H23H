@@ -55,6 +55,8 @@ namespace Unterrichtseinheit01
         private void CmdChangeWidth_Click(object sender, EventArgs e)
         {
             CmdChangeWidth.Width += 200;
+            CmdMyButton.Top = 0;
+            CmdMyButton.Left = 0;
         }
     }
 }
