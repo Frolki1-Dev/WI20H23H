@@ -29,7 +29,9 @@ namespace AufgabeA2_1_1
 
         private void CmdDelete_Click(object sender, EventArgs e)
         {
-            LblOutput.Text = TxtFirstname.Text = TxtLastname.Text = "";
+            LblOutput.Text = "...";
+            TxtFirstname.Clear();
+            TxtLastname.Clear();
         }
     }
 }
