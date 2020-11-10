@@ -1,0 +1,10 @@
+E:\VS\WI20H23H\AufgabeA2-1-1\bin\Debug\AufgabeA2-1-1.exe.config
+E:\VS\WI20H23H\AufgabeA2-1-1\bin\Debug\AufgabeA2-1-1.exe
+E:\VS\WI20H23H\AufgabeA2-1-1\bin\Debug\AufgabeA2-1-1.pdb
+E:\VS\WI20H23H\AufgabeA2-1-1\obj\Debug\AufgabeA2-1-1.csprojAssemblyReference.cache
+E:\VS\WI20H23H\AufgabeA2-1-1\obj\Debug\AufgabeA2_1_1.Form1.resources
+E:\VS\WI20H23H\AufgabeA2-1-1\obj\Debug\AufgabeA2_1_1.Properties.Resources.resources
+E:\VS\WI20H23H\AufgabeA2-1-1\obj\Debug\AufgabeA2-1-1.csproj.GenerateResource.cache
+E:\VS\WI20H23H\AufgabeA2-1-1\obj\Debug\AufgabeA2-1-1.csproj.CoreCompileInputs.cache
+E:\VS\WI20H23H\AufgabeA2-1-1\obj\Debug\AufgabeA2-1-1.exe
+E:\VS\WI20H23H\AufgabeA2-1-1\obj\Debug\AufgabeA2-1-1.pdb
