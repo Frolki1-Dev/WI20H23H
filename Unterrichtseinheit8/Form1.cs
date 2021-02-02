@@ -19,10 +19,66 @@ namespace Unterrichtseinheit8
 
         private void cmd_start_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < 20; i++)
+            TxtOutput.Text += "\r\n----------------\r\nGo forward:\r\n";
+
+            // Go forward
+            for (int i = 0; i < 10; i++)
             {
-                TxtOutput.Text += "Hello World!\r\n";
-                LblNumRep.Text = (i+1).ToString();
+                TxtOutput.Text += (i+1) + ". Hello World!\r\n";
+            }
+
+            TxtOutput.Text += "\r\n----------------\r\nGo backwards:\r\n";
+
+            // Go backwards
+            for (int i = 10; i > 0; i--)
+            {
+                TxtOutput.Text += i + ". Hello World!\r\n";
+            }
+
+            TxtOutput.Text += "\r\n----------------\r\nGet only even numbers:\r\n";
+
+            // Output only the even numbers
+            for (int i = 10; i > 0; i--)
+            {
+                if ((i % 2) == 0)
+                {
+                    TxtOutput.Text += i + ". Hello World!\r\n";
+                }
+
+                // Or
+                /*if(i%2 != 0)
+                {
+                    continue;
+                }*/
+            }
+
+            TxtOutput.Text += "\r\n----------------\r\nDouble for:\r\n";
+
+            for (int i = 0; i < 10; i++)
+            {
+                for(int d = 0; d < 10; d++)
+                {
+                    TxtOutput.Text += (d+1) + " ";
+                }
+                TxtOutput.Text += "\r\n";
+            }
+
+            TxtOutput.Text += "\r\n----------------\r\nDouble for with condition:\r\n";
+
+            for (int i = 0; i <= 10; i++)
+            {
+                for (int d = 0; d < 10; d++)
+                {
+                    if(d < i)
+                    {
+                        TxtOutput.Text += "   ";
+                    } else
+                    {
+                        TxtOutput.Text += d + " ";
+                    }
+            
+                }
+                TxtOutput.Text += "\r\n";
             }
         }
     }
