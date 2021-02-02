@@ -7,3 +7,4 @@ E:\VS\WI20H23H\AufgabeA1-2-2\obj\Debug\AufgabeA1-2-2.csproj.GenerateResource.cac
 E:\VS\WI20H23H\AufgabeA1-2-2\obj\Debug\AufgabeA1-2-2.csproj.CoreCompileInputs.cache
 E:\VS\WI20H23H\AufgabeA1-2-2\obj\Debug\AufgabeA1-2-2.exe
 E:\VS\WI20H23H\AufgabeA1-2-2\obj\Debug\AufgabeA1-2-2.pdb
+E:\VS\WI20H23H\AufgabeA1-2-2\obj\Debug\AufgabeA1-2-2.csprojAssemblyReference.cache

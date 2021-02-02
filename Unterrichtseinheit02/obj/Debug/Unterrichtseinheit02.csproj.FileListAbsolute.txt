@@ -1,0 +1,9 @@
+E:\VS\WI20H23H\Unterrichtseinheit02\bin\Debug\Unterrichtseinheit02.exe.config
+E:\VS\WI20H23H\Unterrichtseinheit02\bin\Debug\Unterrichtseinheit02.exe
+E:\VS\WI20H23H\Unterrichtseinheit02\bin\Debug\Unterrichtseinheit02.pdb
+E:\VS\WI20H23H\Unterrichtseinheit02\obj\Debug\Unterrichtseinheit02.csprojAssemblyReference.cache
+E:\VS\WI20H23H\Unterrichtseinheit02\obj\Debug\Unterrichtseinheit02.Properties.Resources.resources
+E:\VS\WI20H23H\Unterrichtseinheit02\obj\Debug\Unterrichtseinheit02.csproj.GenerateResource.cache
+E:\VS\WI20H23H\Unterrichtseinheit02\obj\Debug\Unterrichtseinheit02.csproj.CoreCompileInputs.cache
+E:\VS\WI20H23H\Unterrichtseinheit02\obj\Debug\Unterrichtseinheit02.exe
+E:\VS\WI20H23H\Unterrichtseinheit02\obj\Debug\Unterrichtseinheit02.pdb
